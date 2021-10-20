@@ -1,0 +1,20 @@
+{
+  "name": "clean-arch-node-api",
+  "version": "1.0.0",
+  "description": "Acompanhando curso: NodeJs, TDD e Clean Architecture do Rodrigo Mango\r Link do curso: [aqui](https://www.youtube.com/watch?v=vV1wQ6GFH0A&list=PL9aKtVrF05DyEwK5kdvzrYXFdpZfj1dsG&ab_channel=Mango)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evndroo/clean-arch-node-api.git"
+  },
+  "keywords": [],
+  "author": "evndroo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Evndroo/clean-arch-node-api/issues"
+  },
+  "homepage": "https://github.com/Evndroo/clean-arch-node-api#readme"
+}
