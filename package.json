@@ -4,7 +4,7 @@
   "description": "Acompanhando curso: NodeJs, TDD e Clean Architecture do Rodrigo Mango\r Link do curso: [aqui](https://www.youtube.com/watch?v=vV1wQ6GFH0A&list=PL9aKtVrF05DyEwK5kdvzrYXFdpZfj1dsG&ab_channel=Mango)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "prepare": "husky install"
   },
   "repository": {
@@ -31,6 +31,7 @@
   "homepage": "https://github.com/Evndroo/clean-arch-node-api#readme",
   "devDependencies": {
     "husky": "^7.0.2",
+    "jest": "^27.3.1",
     "lint-staged": "^11.2.3",
     "standard": "^16.0.4"
   }
