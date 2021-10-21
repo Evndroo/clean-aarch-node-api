@@ -4,11 +4,23 @@
   "description": "Acompanhando curso: NodeJs, TDD e Clean Architecture do Rodrigo Mango\r Link do curso: [aqui](https://www.youtube.com/watch?v=vV1wQ6GFH0A&list=PL9aKtVrF05DyEwK5kdvzrYXFdpZfj1dsG&ab_channel=Mango)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Evndroo/clean-arch-node-api.git"
+  },
+  "lint-staged": {
+    "*.js": [
+      "standard --fix",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "keywords": [],
   "author": "evndroo",
@@ -18,6 +30,8 @@
   },
   "homepage": "https://github.com/Evndroo/clean-arch-node-api#readme",
   "devDependencies": {
+    "husky": "^7.0.2",
+    "lint-staged": "^11.2.3",
     "standard": "^16.0.4"
   }
 }
