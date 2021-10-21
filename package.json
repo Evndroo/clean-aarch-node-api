@@ -11,17 +11,6 @@
     "type": "git",
     "url": "git+https://github.com/Evndroo/clean-arch-node-api.git"
   },
-  "lint-staged": {
-    "*.js": [
-      "standard --fix",
-      "git add"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "keywords": [],
   "author": "evndroo",
   "license": "ISC",
